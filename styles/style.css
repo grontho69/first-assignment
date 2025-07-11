@@ -1,5 +1,6 @@
  *{
-  margin: 0;
+  margin: 0 auto ;
+  max-width: 1440px;
   padding: 0;
  }
 .raleway {
@@ -20,7 +21,7 @@
   background-image: url(../Assets/Hero-bg.png);
   height: 698px;
   width: 1440px;
-  margin: 0 auto;
+
   border: solid none;
 }
 .navbar{
@@ -57,4 +58,35 @@ justify-self: center;
   align-items: center;
   padding-top: 37px;
 }
+.action-container{
+  display: flex;
+justify-content: center;
+padding-top: 116px;
+align-items: center;
+
+}
+body{
+  max-width: 1440px; 
+}
+.action-left{
+padding-top: 62.5px;
+padding-bottom: 62.5px;
+}
+.action-titel{
+ font-size: 42px;
+ font-weight: bold; 
+}
+.action-sub{
+  font-size: 24px;
+  color:rgba(37, 36, 50, 0.5);
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.action-container img {
+width: 403px;
+height: 328px;
+border-radius: 48px;
+border: none;
+}
+
 
