@@ -208,8 +208,18 @@ display: flex;
 gap: auto;
 
 }
+.connect-titel{
+  font-size:97px ;
+  padding-top: 200px;
+padding-bottom: 200px;
+}
+
 .footer-column{
   width: 50%;
+}
+.connect-column1{
+  padding-top:71px ;
+  padding-bottom: 71px;
 }
 .connect-secton input[type="email"], .connect-secton input[type="text"] ,.connect-secton textarea{
 height: 70px;
@@ -221,4 +231,28 @@ border: none;
 padding-bottom: 20px;
 margin-bottom: 20px;
 font-size: 18px;
+}
+footer{
+ width: auto;
+ height: auto;
+  background-color: #FFFFFF;
+  padding: 104px 455px;
+}
+footer h1 {
+  font-size: 100px;
+  color: #4E47FF;
+padding:20px ;}
+footer p{
+  font-size: 16px;
+  color: #979393;
+  text-align:justify;
+  padding: 8px;
+
+}
+footer .main-div {
+  font-size: 16px;
+gap: 50px;
+margin-top: 20px;
+justify-content: space-between;
+display: flex;
 }
