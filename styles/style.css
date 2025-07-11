@@ -199,3 +199,26 @@ margin-top: 137px;
 .focuse-section button{
   margin-bottom: 20px;
 }
+.connect-secton{
+ width: 1140px;
+ height: 632px;
+ padding-top: 71px;
+padding-bottom: 71px;
+display: flex;
+gap: auto;
+
+}
+.footer-column{
+  width: 50%;
+}
+.connect-secton input[type="email"], .connect-secton input[type="text"] ,.connect-secton textarea{
+height: 70px;
+border-radius: 10px;
+background-color: #FFFFFF;
+display: block;
+width:497px ;
+border: none;
+padding-bottom: 20px;
+margin-bottom: 20px;
+font-size: 18px;
+}
